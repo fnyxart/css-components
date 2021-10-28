@@ -1,0 +1,40 @@
+/* Fonts */
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700");
+@import url("https://use.fontawesome.com/releases/v5.0.10/css/all.css");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;800&display=swap');
+/* Components */
+@import url("components/alerts.css");
+
+
+body {
+  font-family: "Montserrat";
+  margin: 0;
+  margin-top: 130px;
+  /* margin-bottom: 100px; */
+  font-family: "Open Sans", "Helvetica", "sans-serif";
+  background-color: #F4F7F2;
+}
+
+p {
+  font-family: 'Montserrat';
+  font-size: 20px;
+  color: #6B7F7F
+}
+
+.text-center {
+  text-align: center;
+}
+.container {
+  max-width: 700px;
+  margin: 50px auto;
+}
+
+a {
+  font-size: 23px;
+  color:  #a0a0a0fb;
+}
+
+a:hover {
+  color: #2c2c2c;
+  transition: 0.4s cubic-bezier(0, 0.275, 0.125, 1);
+}
